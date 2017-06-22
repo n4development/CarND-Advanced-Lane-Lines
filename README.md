@@ -126,3 +126,10 @@ The code to perform the above is in the function `final_viz()` in 'line_fit.py'.
 Below is the final annotated version of our original image. For all images in 'test_images/\*.jpg', the final annotated version of that image is saved in 'output_images/annotated_\*.png'.
 
 ![annotated](output_images/annotated_test2.png)
+
+### Discussion
+This is Computer vision challenge:
+* problems/issues faced
+    - The program would not work for challenge video because the video includes roads with cracks which could be mistaken as lane lines.
+    - other vehicles in front would trick the lane finder into thinking it was part of the lane.
+* To improve the algorithm/pipline we could use deep learn to classier the lanes.
